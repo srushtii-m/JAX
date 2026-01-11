@@ -1,0 +1,11 @@
+name: jaxenv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - scipy
+  - pip:
+    - jax
+    - scikit-learn
